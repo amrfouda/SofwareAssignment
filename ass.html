@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="ass.css">
+    <title>Book Cover</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./ass.js"></script>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Book Cover</a>
+    </nav>
+
+    <div class="split left">
+      <div class="container" style="color:white;margin:10px;">
+
+    <form class="container">
+      <div class="form-group row">
+        <span for = "inputbooktitle" class="label success">Book Title</span>
+        <div class="col-sm-10">
+          <input type="title" class="form-control" id="inputbooktitle">
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <span for = "inputbooksubtitle" class="label success">Book Subtitle</span>
+        <div class="col-sm-10">
+          <input type="subtitle" class="form-control" id="inputbooksubtitle">
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <span for = "authorname" class="label success">Author Name</span>
+        <div class="col-sm-10">
+          <input type="name" class="form-control" id="authorname">
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <span for = "bg" class="label success">Background Color</span>
+        <div class="col-sm-10">
+          <input type="bg" class="form-control" id="bg">
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <span for = "pub" class="label success">Publisher</span>
+        <div class="col-sm-10">
+          <input type="pub" class="form-control" id="pub">
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <span for = "year" class="label success">Publishing Year</span>
+        <div class="col-sm-10">
+          <input type="year" class="form-control" id="pubyear">
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-primary" id = "submit">Submit</button>
+
+      </div>
+    </div>
+
+    <div class="split right">
+      <div class="centered">
+        <div class="rectangle" id ="cover">
+        <br></br>
+        <h1 id ="title">Title</h1>
+        <h5 id ="subtitle">Subtitle</h5>
+        <h3 id ="name">Name</h3>
+        <h4 id ="publisher">Publisher</h4>
+        <h5 id ="year">Year</h5>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>

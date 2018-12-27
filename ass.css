@@ -1,0 +1,68 @@
+.split {
+  height: 91%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #FDFFFC;
+}
+
+.right {
+  right: 0;
+  background-color: #011627;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.form-control{
+  width: 500px;
+  background-color : #011627;
+}
+
+.label {
+  color: white;
+  padding: 8px;
+  border-radius: 6%;
+}
+
+.success {
+  width: 150px;
+  background-color: #011627;
+  text-align: center;
+}
+
+#cover{
+  height: 450px;
+  width: 300px;
+  background-color: white;
+}
+
+#title {
+  text-align: center;
+  margin: 10px;
+}
+#subtitle{
+  text-align: center;
+  margin-top: 5px;
+
+}
+
+#year {
+  margin-top: 10px;
+}
+
+#publisher{
+  margin-top: 130px;
+}
